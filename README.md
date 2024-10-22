@@ -38,11 +38,11 @@ Start the Server in Server System
     3. Run the server script:
                 $ python server.py
 
-## Start the Clients
+Start the Clients
 
-1. Open two terminal windows for Client 1 and Client 2.
-
-2. Navigate to the respective client directories:
+    1. Open two terminal windows for Client 1 and Client 2.
+    
+    2. Navigate to the respective client directories:
 
        For Client 1:
            $ cd client1
@@ -50,14 +50,13 @@ Start the Server in Server System
        For Client 2:
            $ cd client2
 
-3. Run the client scripts:
-   $ python client.py
+    3. Run the client scripts:
+        $ python client.py
 
 ## Configuration
 
-Make sure to set the server IP address in the client scripts.
-
-You may need to modify firewall settings to allow communication through the specified port.
+- Make sure to set the server IP address in the client scripts.
+- You may need to modify firewall settings to allow communication through the specified port.
 
 ## Termination
 
