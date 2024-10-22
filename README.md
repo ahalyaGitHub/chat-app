@@ -11,32 +11,32 @@ This project is a simple chat application built using Python, utilizing TCP and 
 
 ## Project Structure
 
-chat-app/ 
-    |-- client1/ 
-        ├── client.py # Client 1 implementation 
-    |-- client2/ 
-        ├── client.py # Client 2 implementation 
-    |-- server/ 
-        ├── server.py # Server implementation
+    chat-app/ 
+        |-- client1/ 
+            ├── client.py # Client 1 implementation 
+        |-- client2/ 
+            ├── client.py # Client 2 implementation 
+        |-- server/ 
+            ├── server.py # Server implementation
 
 ## Installation
 
-1. Clone the repository:
-    bash
-    $ git clone https://github.com/yourusername/chat-app.git
-    $ cd chat-app
-
-2. Ensure you have Python installed on your system.
+    1. Clone the repository:
+        bash
+        $ git clone https://github.com/yourusername/chat-app.git
+        $ cd chat-app
+    
+    2. Ensure you have Python installed on your system.
 
 ## Usage
 
 Start the Server in Server System
 
-1. Navigate to the server directory:
-            $ cd server
-   
-3. Run the server script:
-            $ python server.py
+    1. Navigate to the server directory:
+                $ cd server
+       
+    3. Run the server script:
+                $ python server.py
 
 ## Start the Clients
 
@@ -44,11 +44,11 @@ Start the Server in Server System
 
 2. Navigate to the respective client directories:
 
-   For Client 1:
-       $ cd client1
-
-   For Client 2:
-       $ cd client2
+       For Client 1:
+           $ cd client1
+    
+       For Client 2:
+           $ cd client2
 
 3. Run the client scripts:
    $ python client.py
