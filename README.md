@@ -22,7 +22,6 @@ This project is a simple chat application built using Python, utilizing TCP and 
 ## Installation
 
     1. Clone the repository:
-        bash
         $ git clone https://github.com/yourusername/chat-app.git
         $ cd chat-app
     
