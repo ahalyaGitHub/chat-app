@@ -1,9 +1,12 @@
 import socket
 import threading
 
+PORT = int(os.environ.get("PORT", 8080))
+HOST = "0.0.0.0"
+
 def start_tcp_server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(('0.0.0.0', 12345))  # Listen on all interfaces
+    server_socket.bind((HOST, PORT))  # Listen on all interfaces
     server_socket.listen(5)  # Allow up to 5 clients
 
     print("TCP Server started...")
